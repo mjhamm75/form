@@ -1,10 +1,8 @@
 
 .form {
-  /*height: 3300px;*/
   box-sizing: border-box;
   font-family: sans-serif;
-  margin: 50px 50px;
-  /*width: 2550px;*/
+  margin: 25px 25px;
 }
 .table {
   border-bottom: black solid 2px;
@@ -14,18 +12,28 @@
 .table td {
   width: 25%;
 }
+.title {
+  height: 117px;
+  margin-top: 30px;
+  position: relative;
+}
 .unit-name {
-
+  margin-bottom: 5px;
 }
 .form-title {
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
 }
+.purpose-td {
+  font-size: 12px;
+  vertical-align: top;
+}
 .purpose {
   background: #6D6E71;
   color: white;
-  padding: 15px 40px;
+  padding: 22px 40px;
+  text-align: center;
 }
 .checkbox {
   padding: 5px;
@@ -44,4 +52,9 @@
   float: right;
   height: 15px;
   width: 15px;
+}
+.header {
+  bottom: 0;
+  text-transform: upper;
+  position: absolute;
 }
