@@ -1,0 +1,47 @@
+
+.form {
+  /*height: 3300px;*/
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 50px 50px;
+  /*width: 2550px;*/
+}
+.table {
+  border-bottom: black solid 2px;
+  border-top: black solid 2px;
+  width: 100%;
+}
+.table td {
+  width: 25%;
+}
+.unit-name {
+
+}
+.form-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.purpose {
+  background: #6D6E71;
+  color: white;
+  padding: 15px 40px;
+}
+.checkbox {
+  padding: 5px;
+}
+.checkboxes {
+  background: #E6E7E8;
+  padding: 25px;
+}
+.checkbox-title {
+  /*float: right;
+  margin-right: 20px;*/
+}
+.checkbox-input {
+  background: white;
+  border: solid black 1px;
+  float: right;
+  height: 15px;
+  width: 15px;
+}
