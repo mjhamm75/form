@@ -4,16 +4,16 @@
   font-family: sans-serif;
   margin: 25px 25px;
 }
-.table {
+.header-table {
   border-bottom: black solid 2px;
   border-top: black solid 2px;
   width: 100%;
 }
-.table td {
+.header-table td {
   width: 25%;
 }
 .title {
-  height: 117px;
+  height: 120px;
   margin-top: 30px;
   position: relative;
 }
@@ -55,6 +55,25 @@
 }
 .header {
   bottom: 0;
-  text-transform: upper;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 3px;
   position: absolute;
+  text-transform: upper;
+}
+.label {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 4px;
+}
+.form-table {
+  width: 100%;
+}
+.form-table tr {
+  border-bottom: solid black 1px;
+  border-top: solid black 1px;
+  height: 40px;
+}
+.bold {
+  font-weight: 600;
 }
