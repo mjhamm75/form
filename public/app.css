@@ -118,3 +118,13 @@
   position: absolute;
   width: 20px;
 }
+.test {
+  height: 100px;
+  background: repeating-linear-gradient(
+    -45deg,
+    #E6E7E8,
+    #E6E7E8 10px,
+    #F6F6F6 10px,
+    #F6F6F6 20px
+  );
+}
