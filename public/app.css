@@ -39,7 +39,7 @@
 }
 .checkboxes {
   background: #E6E7E8;
-  padding: 22px 25px;
+  padding: 25px 25px;
 }
 .checkbox-title {
   /*float: right;
@@ -54,8 +54,8 @@
 }
 .header {
   bottom: 0;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: bold;
   margin-bottom: 3px;
   position: absolute;
   text-transform: upper;
@@ -63,7 +63,7 @@
 .label {
   font-size: 12px;
   font-weight: 100;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 .form-table {
   width: 100%;
