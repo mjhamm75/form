@@ -1,7 +1,7 @@
 .form {
   box-sizing: border-box;
   font-family: sans-serif;
-  margin: 25px 25px;
+  margin: 1px 1px;
 }
 .header-table {
   border-bottom: black solid 2px;
@@ -108,4 +108,13 @@
 }
 .footer {
   height: 100px;
+}
+.scissors {
+  background: url('./scissors.png');
+  background-size: cover;
+  bottom: 0;
+  height: 15px;
+  margin-left: 5px;
+  position: absolute;
+  width: 20px;
 }
