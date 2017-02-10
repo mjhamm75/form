@@ -85,6 +85,9 @@
   margin: 20px 20px;
 }
 .candy-stripe {
-  height: 100px;
   background: url('candy-stripe.png');
+  background-size: cover;
+}
+.candy-stripe tr {
+  border-bottom: solid black 1px;
 }
