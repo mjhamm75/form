@@ -39,11 +39,7 @@
 }
 .checkboxes {
   background: #E6E7E8;
-  padding: 25px 25px;
-}
-.checkbox-title {
-  /*float: right;
-  margin-right: 20px;*/
+  padding: 28px 25px;
 }
 .checkbox-input {
   background: white;
@@ -119,7 +115,7 @@
   width: 20px;
 }
 .test {
-  height: 100px;
+  height: 150px;
   background: repeating-linear-gradient(
     -45deg,
     #E6E7E8,
