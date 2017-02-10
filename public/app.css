@@ -39,7 +39,9 @@
   text-align: right;
 }
 .checkbox-title {
-  margin-right: 10px;
+  padding-right: 15px;
+  text-align: right;
+  vertical-align: middle;
 }
 .checkboxes {
   background: #E6E7E8;
@@ -49,7 +51,6 @@
 .checkbox-input {
   background: white;
   border: solid black 1px;
-  float: right;
   height: 20px;
   width: 20px;
 }
