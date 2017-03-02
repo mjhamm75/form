@@ -24,6 +24,13 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+.form-table-tr {
+	border-bottom-color: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+	border-top: solid black 1px;
+	height: 45px;
+}
 .purpose-td {
   font-size: 12px;
   vertical-align: top;
@@ -120,13 +127,12 @@
   position: absolute;
   width: 20px;
 }
-.test {
-  height: 150px;
-  background: repeating-linear-gradient(
-    -45deg,
-    #E6E7E8,
-    #E6E7E8 10px,
-    #F6F6F6 10px,
-    #F6F6F6 20px
-  );
+ul {
+  font-size: 10px;
+  margin: 7px;
+}
+ul li {
+  margin: 2px 0;
+  width: 24%;
+  float: left;
 }
