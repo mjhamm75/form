@@ -1,0 +1,86 @@
+body {
+  font-family: 'Open Sans';
+  margin: 10px;
+}
+thead {
+  border-top: double grey;
+  border-bottom: double grey;
+}
+tbody tr {
+  border-bottom: solid 1px grey;
+}
+table td, table th {
+  font-size: 12px;
+  padding: 5px 0;
+  text-align: left;
+}
+table td:last-child, table th:last-child {
+  text-align: right;
+}
+.disclaimer {
+  font-size: 10px;
+  text-align: center;
+}
+.unit-wrapper {
+  margin-top: 15px;
+  text-align: right;
+}
+.unit {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  text-align: right;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.label {
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 15px;
+  width: 200px;
+}
+.value {
+  font-size: 12px;
+}
+.authorized {
+  margin-bottom: 8px;
+}
+.table {
+  margin-top: 40px;
+  width: 100%;
+}
+.signature-wrapper {
+  display: inline-table;
+  margin-top: 90px;
+  width: 100%;
+}
+.signature {
+  border-top: solid black 2px;
+  display: inline-block;
+  margin-right: 70px;
+  padding-top: 10px;
+  width: 65%;
+}
+.date {
+  border-top: solid black 2px;
+  display: inline-block;
+  padding-top: 10px;
+  width: 28%;
+}
+.footer {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 40px;
+}
+.categories {
+  line-height: 1.5;
+}
+.purpose {
+  line-height: 1.5;
+}
+.amount {
+  line-height: 1.5;
+}
